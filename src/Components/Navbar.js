@@ -1,8 +1,10 @@
 import React, { useState } from "react";
-import { AppBar, Toolbar, Typography, IconButton, TextField, InputAdornment, Badge } from "@mui/material";
+import { AppBar, Toolbar, Typography, IconButton, TextField, InputAdornment, Badge, Box } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-import ProfileIcon from '../Assets/ProfileIcon.jpg'
+import ProfileIcon from '../Images/ProfileIcon.jpg';
+import LOGO from '../Images/LOGO.avif';
+
 
 function Navbar() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -31,10 +33,24 @@ function Navbar() {
       }}
     >
       <Toolbar  >
+      <Box
+      component="img"
+      src={LOGO}// Replace with the actual path to your logo
+      alt="Logo"
+      sx={{
+        height: 50, // Adjust as needed
+        width: 50, // Adjust as needed
+        objectFit: 'contain', // Ensures the image fits well
+        borderRadius: '50%', // Optional for a circular logo
+      }}
+    />
+        
         {/* Left Side: Navbar Title */}
         <Typography variant="h6" sx={{ flexGrow: 1 }}>
-          My Website
+         Stationary Online
         </Typography>
+
+        <span> You will like whatever you find here !</span>
 
         {/* Search Bar with Icon */}
         <TextField
