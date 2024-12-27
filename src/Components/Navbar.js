@@ -10,6 +10,10 @@ function Navbar() {
   const [searchTerm, setSearchTerm] = useState("");
   const [cartItems, setCartItems] = useState(5); // Sample cart items count
 
+  const addtoCart = (item) => {
+    setCartItems((prevItems) => [...prevItems, item]);
+  };
+
   const handleSearchChange = (event) => {
     setSearchTerm(event.target.value);
   };
@@ -24,7 +28,7 @@ function Navbar() {
 
   return (
     <AppBar
-      position="sticky" 
+      //position="sticky" 
       sx={{
         backgroundColor: '#b34271', 
         zIndex: 1201, 
@@ -45,12 +49,12 @@ function Navbar() {
       }}
     />
         
-        {/* Left Side: Navbar Title */}
-        <Typography variant="h6" sx={{ flexGrow: 1 }}>
-         Stationary Online
+        <Typography variant="h6"  sx={{ flexGrow: 1 }}>
+            Fancy Stationary Store Online
         </Typography>
-
-        <span> You will like whatever you find here !</span>
+        <Typography variant="h5"  sx={{ flexGrow: 1 }}>
+          You will like whatever you find here !
+       </Typography>
 
         {/* Search Bar with Icon */}
         <TextField

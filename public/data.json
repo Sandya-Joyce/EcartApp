@@ -3,74 +3,100 @@
     {
       "id": 1,
       "title": "Pens Box",
+      "price":"50",
       "description": "This is the description for card 1.",
       "image":"/Assets/Pens.png"
     },
     {
       "id": 2,
-      "title": "Card Title 2",
+      "title": "Cute Pouch",
+      "price":"50",
       "description": "This is the description for card 2.",
-      "image": "https://via.placeholder.com/150"
+      "image": "/Assets/CutePouch.jpg"
     },
     {
       "id": 3,
-      "title": "Card Title 1",
+      "title": "Color Pencils",
+      "price":"50",
       "description": "This is the description for card 1.",
-      "image": "https://via.placeholder.com/150"
+      "image": "/Assets/ColorPencils.png"
     },
     {
       "id": 4,
-      "title": "Card Title 2",
+      "title": "Cute Stickers",
+      "price":"50",
       "description": "This is the description for card 2.",
-      "image": "https://via.placeholder.com/150"
+      "image": "/Assets/CuteStickers.jpg"
     },
     {
       "id": 5,
-      "title": "Card Title 1",
+      "title": "Journal Notebook",
+      "price":"50",
       "description": "This is the description for card 1.",
-      "image": "https://via.placeholder.com/150"
-    },
+      "image": "/Assets/JournalNotebook.avif"
+    }, 
     {
       "id": 6,
-      "title": "Card Title 2",
+      "title": "Sketch Book",
+      "price":"50",
       "description": "This is the description for card 2.",
-      "image": "https://via.placeholder.com/150"
+      "image": "/Assets/SketchBook.jpg"
     },
     {
       "id": 7,
-      "title": "Card Title 1",
+      "title": "Sticky notes",
+      "price":"50",
       "description": "This is the description for card 1.",
-      "image": "https://via.placeholder.com/150"
+      "image": "/Assets/Stickynotes.jpg"
     },
     {
       "id": 8,
-      "title": "Card Title 2",
+      "title": "Paper Clips",
+      "price":"50",
       "description": "This is the description for card 2.",
-      "image": "https://via.placeholder.com/150"
+      "image": "/Assets/PaperClips.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Paint Materials",
+      "price":"50",
+      "description": "This is the description for card 1.",
+      "image": "/Assets/PaintMaterials.avif"
+    },
+    {
+      "id": 10,
+      "title": "Fancy Set",
+      "price":"50",
+      "description": "This is the description for card 2.",
+      "image": "Assets/FancySet.jpeg"
+    },
+    {
+      "id": 9,
+      "title": "Highlightners",
+      "price":"50",
+      "description": "This is the description for card 1.",
+      "image": "Assets/Highlightners.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Cute Diary",
+      "price":"50",
+      "description": "This is the description for card 2.",
+      "image": "Assets/CuteDiary.avif"
     },
     {
       "id": 9,
       "title": "Card Title 1",
+      "price":"50",
       "description": "This is the description for card 1.",
-      "image": "https://via.placeholder.com/150"
+      "image": "/Assets/PaintMaterials.avif"
     },
     {
       "id": 10,
       "title": "Card Title 2",
+      "price":"50",
       "description": "This is the description for card 2.",
-      "image": "https://via.placeholder.com/150"
-    },
-    {
-      "id": 9,
-      "title": "Card Title 1",
-      "description": "This is the description for card 1.",
-      "image": "https://via.placeholder.com/150"
-    },
-    {
-      "id": 10,
-      "title": "Card Title 2",
-      "description": "This is the description for card 2.",
-      "image": "https://via.placeholder.com/150"
+      "image": "Assets/FancySet.jpeg"
     }
   ]
   
